@@ -1,0 +1,169 @@
+/* BASE CONF */
+@import url("./fonts.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+a {
+color: #146EF5;
+text-decoration: none;
+}
+/* BASE CONF */
+
+/* Header */
+.header{
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border: solid 1px #000;
+}
+
+.header_logo {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.header_btn {
+    color: #fff;
+    background-color: #000;
+    width: 135px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.header_inp {
+    width: 366px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.header_search {
+    display: flex;
+}
+/* Header */
+
+/* Section */
+
+.sect{
+    display:flex;
+    padding: 50px;
+}
+
+.sect_part1{
+    width: 68%;
+}
+.art1_title{
+
+    font-weight: 500;
+    font-size: 52px;
+    color: #000000;
+    line-height: 61px;
+    margin-bottom: 10px;
+
+}
+.art1_time{
+  
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.art1_img{
+    width: 90%;
+}
+
+.art1_author{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.art1_content{
+    margin-bottom: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 79%;
+}
+
+.art2_title{
+    font-weight: 500;
+    font-size: 52px;
+    color: #000000;
+    line-height: 61px;
+    margin-bottom: 10px;
+
+}
+
+.art2_time{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.art2_img{
+    margin-right: 10px;
+}
+.art2_author{
+    margin: 47px 21px 47px 0; 
+}
+
+.art2_auth_box{
+    display: flex;
+    width: 254px;
+    height: 100px;
+    align-items: center;
+    margin: 47px 0;
+
+}
+
+.box_desc{
+    margin-left: 21px;
+}
+.art2_auth_name1{ 
+
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+.art2_auth_name2{ 
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #146EF5;
+}
+
+.art2_content{
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 79%;
+    }
+/* Section */
+
